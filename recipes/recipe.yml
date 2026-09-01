@@ -19,8 +19,6 @@ modules:
 
   - type: dnf
     repos:
-      copr:
-        - fed500/kew
       files:
         - https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
       nonfree: negativo17
@@ -32,8 +30,6 @@ modules:
         - steam-devices
         - https://vencord.dev/download/vesktop/amd64/rpm
         - cava
-        - kew
-        - libnestegg
     remove:
       packages:
         - firefox
