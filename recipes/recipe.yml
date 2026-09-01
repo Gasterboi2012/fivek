@@ -30,7 +30,6 @@ modules:
         - brave-origin
         - steam
         - steam-devices
-        - kernel-modules-extra
         - https://vencord.dev/download/vesktop/amd64/rpm
         - cava
         - kew
